@@ -1,0 +1,58 @@
+<div class="flex justify-center items-center">
+    <div class="bg-slate-200 shadow-md rounded-lg px-10 py-10 mt-10 mb-10 max-w-md w-full">
+      <form>
+        <div class="mb-6">
+          <label for="username" class="block text-gray-700 text-sm font-bold mb-2">
+            Username:
+          </label>
+          <input
+            type="text"
+            placeholder="enter your username"
+            id="username"
+            name="username"
+            required
+            class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            autocomplete="username"
+          />
+        </div>
+        <div class="mb-6">
+          <label for="password" class="block text-gray-700 text-sm font-bold mb-2">
+            Password:
+          </label>
+          <input
+            type="password"
+            placeholder="enter your password"
+            id="password"
+            name="password"
+            required
+            class="border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+            autocomplete="current-password"
+          />
+        </div>
+        <div class="flex items-center justify-center">
+          <button
+            type="submit"
+            class="bg-rose-400 hover:bg-rose-500 text-white font-bold py-3 px-8 rounded focus:outline-none focus:shadow-outline w-full"
+          >
+            Login
+          </button>
+        </div>
+        <br />
+        <p class="flex items-center justify-center">Or</p>
+        <br />
+        <button
+          type="button"
+          class="bg-white text-black font-bold py-3 px-8 rounded focus:outline-none focus:shadow-outline w-full flex gap-6 items-center justify-center"
+        >
+          <img src="../../../../assets/google.png" alt="google" width="30" height="30" />
+          Login with Google
+        </button>
+        <div class="flex items-center justify-center my-4">
+          <p class="mr-2">Do not have an account ?</p>
+          <a class="underline text-blue-600 font-semibold" href="/signUp">
+            Create Account
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
